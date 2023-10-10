@@ -1,0 +1,23 @@
+.Main{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Watch{
+    height: 100px;
+    width: 100px;
+}
+#cd{
+    background-color: aqua;
+   
+    
+   
+   
+}
+body{
+    /* background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png"); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
