@@ -1,0 +1,51 @@
+body{
+    /* background: linear-gradient(to top right,rgb(121, 42, 206),rgb(207, 69, 234)); */
+    
+}
+section{
+    background-color: white;
+    border-radius: 20px;
+    
+    width: auto;
+}
+.log-box{
+    display:flex;
+    flex-direction: column;
+    margin-top: 16%;
+    
+}
+.in-box{
+    background: rgb(207, 207, 207);
+    border: 6px;
+    margin: 6%;
+    width: auto;
+    
+}
+.in-box input{
+    border: none;
+    outline: none;
+    padding: 14px;
+    background: transparent;
+
+}
+.log-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16%;
+}
+
+.log-box button {
+    width: 88%;
+    padding: 13px;
+    background-color: #45a34a;
+    border-radius: 30px;
+    margin: 6%;
+}
+.log-box a{
+    color: #45a34a;
+    text-decoration: none;
+}
+.pic-box{
+   margin-top: 40%; 
+}
+

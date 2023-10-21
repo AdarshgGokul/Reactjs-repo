@@ -5,6 +5,7 @@ import './SocialButtons.css'
 
 function SocialButton(){
     return(
+        <body id='bg'>
        <center> 
         <h1>Social Buttons</h1>
         <Button variant="warning">Like</Button>
@@ -13,6 +14,7 @@ function SocialButton(){
 
 
        </center>
+       </body>
     )
 }
 export default SocialButton

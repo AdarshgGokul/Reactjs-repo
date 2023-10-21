@@ -1,6 +1,9 @@
 button{
     margin-left: 20px;
 }
-body{
+#bg{
     background-image: url('C:\Users\ADHARSH\OneDrive\Desktop\KGM\kakasi.jpg');
+}
+h1{ 
+    color: aliceblue;
 }
