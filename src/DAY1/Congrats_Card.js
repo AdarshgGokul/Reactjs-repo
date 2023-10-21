@@ -5,12 +5,12 @@ import './Congrats_Card.css'
 
 function Card1() {
   return (
-    
+    <section className="body">
     <Card className="Main">
       <h1>Congratulation</h1>
       <Card.Body id="cd"> 
         <center>
-        <Card.Img variant="top" src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png" />
+        <Card.Img className='Img' variant="top" src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png" />
         <Card.Title>Kiran V</Card.Title>
         <Card.Text>
           Vishnu Institute of Computer Education and Technology, Bhimavaram
@@ -19,6 +19,7 @@ function Card1() {
         </center>
       </Card.Body>
     </Card>
+    </section>
     
   );
 }

@@ -4,20 +4,23 @@
 }
 
 .Watch{
-    height: 100px;
-    width: 100px;
+    height: 5rem;
+   
+}
+.Img{
+    height: 50px;
+    width: 50px;
+    
 }
 #cd{
     background-color: aqua;
-   
-    
-   
+      
    
 }
-body{
-    /* background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png"); */
+.body{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50rem;
 }
