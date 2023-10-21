@@ -7,9 +7,17 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import reportWebVitals from './reportWebVitals';
 import App, { Ad, Hello } from './App';
-// import Card1 from './DAY1/Congrats_Card';
+import Card1 from './DAY1/Congrats_Card';
 import Sol from './task3/sol';
-import SocialButton from './task4/SocialButtons';
+import SocialButton from './task4/SocialButtons.css';
+import Notification from './task5/Notification';
+import Login from './task6/Loginpage';
+import Cards from './task7/Card';
+import NavScroll from './task8/nav';
+import Hooks, { changeColor } from './hooks';
+import Hook2 from './hook2';
+import Hooks1 from './task10/hooks1';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +29,16 @@ root.render(
     {/* <Card1/> */}
     {/* <Items/> */}
     {/* <Sol/> */}
-    <SocialButton/>
+    {/* <SocialButton/> */}
+    {/* <Notification/> */}
+    {/* <Login/> */}
+    {/* <Cards/> */}
+    {/* <NavScroll/> */}
+    {/* <Hooks/> */}
+    <Hooks1/>
+    {/* <Hook2/> */}
+
+    
   </React.StrictMode>
 );
 
